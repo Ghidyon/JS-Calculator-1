@@ -18,9 +18,15 @@ body {
     width: fit-content;
     color: #fff;
 }
+
+h1 {
+    text-align: center;
+}
+
 .calculator {
     position: relative;
     display: grid;
+    width: fit-content;
 }
 .calculator .value {
     grid-column: span 4;
