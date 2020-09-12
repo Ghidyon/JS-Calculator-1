@@ -43,12 +43,14 @@ h1 {
 }
 
 .calculator span {
-    display: inline-block;
+    display: flex;
     width: 60px;
     height: 60px;
     color: gray;
     background: #0c2835;
     border: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    justify-content: center;
 }
 
 .calculator span.clear{
@@ -56,17 +58,6 @@ h1 {
     background-color: purple;
     width: 120px;
 }
-/* .calculator {
-    position: relative;
-    display: grid;
-    
-    place-items: center;
-    width: fit-content;
-    border: 2px solid salmon;
-}
-
-
-
 
 .calculator span:active {
     background: #74ff3b;
@@ -80,4 +71,3 @@ h1 {
 .calculator span.equal {
     background: dodgerblue;
 }
- */
