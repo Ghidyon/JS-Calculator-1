@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>A  SIMPLE CALCULATOR</title>
+    <title>A SIMPLE CALCULATOR</title>
 </head>
+
 <body>
     <div class="header">
         <h1>A SIMPLE CALCULATOR</h1>
     </div>
     <form class="calculator" name="calc">
-        <input class="value" type="text" name="txt" readonly="">
+        <input class="value" type="text" name="txt" readonly>
         <span class="num clear" onclick="document.calc.txt.value =''">c</span>
         <span class="num" onclick="document.calc.txt.value +='/'">/</span>
         <span class="num" onclick="document.calc.txt.value +='*'">*</span>
@@ -32,4 +34,5 @@
         <span class="num equal" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
     </form>
 </body>
+
 </html>

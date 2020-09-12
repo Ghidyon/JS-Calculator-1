@@ -27,8 +27,11 @@ h1 {
     position: relative;
     display: grid;
     width: fit-content;
+    border: 2px solid salmon;
 }
+
 .calculator .value {
+    width: 100%;
     grid-column: span 4;
     height: 100px;
     text-align: right;
@@ -36,20 +39,20 @@ h1 {
     outline: none;
     padding: 10px;
     font-size: 18px;
-
 }
+
 form {
-    width: 2rem;
     justify-content: center;
     margin-top: 30px;
 }
+
 .calculator span {
-    display: grid;
     width: 60px;
     height: 60px;
+    padding: 1rem 0;
     color: gray;
     background: #0c2835;
-    place-items: center;
+    text-align: center;
     border: 1px solid rgba(0,0,0,0.1);
 }
 .calculator span:active {
