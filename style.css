@@ -26,6 +26,8 @@ h1 {
 .calculator {
     position: relative;
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
     width: fit-content;
     border: 2px solid salmon;
 }
